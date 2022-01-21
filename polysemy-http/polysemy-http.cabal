@@ -119,9 +119,9 @@ library
     , http-client-tls >=0.3.1
     , http-types >=0.12.3
     , lens >=4
-    , polysemy >=1.6
+    , polysemy >=1.7.1.0
     , polysemy-log >=0.2.2.4
-    , polysemy-plugin >=0.4
+    , polysemy-plugin >=0.4.3.0
     , relude >=0.7
     , template-haskell
     , text
