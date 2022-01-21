@@ -28,10 +28,10 @@
   in
   hix.flake {
     base = ./.;
-    packages.polysemy-http = ./packages/polysemy-http;
+    packages.polysemy-http = ./polysemy-http;
     overrides = { inherit all ghc901 ghc884; };
     ghci.extraArgs = ["-fplugin=Polysemy.Plugin"];
-    versionFile = "ops/hpack/packages/polysemy-http.yaml";
+    versionFile = "ops/hpack/polysemy-http.yaml";
     ghcid.easy-hls = false;
   };
 }
